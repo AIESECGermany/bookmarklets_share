@@ -1,4 +1,5 @@
 javascript: (function(){
+	db_token = "YourToken";
 	//########################################################
 	function Utils(){}
 	Utils.securityToken=null;
@@ -40,7 +41,7 @@ javascript: (function(){
 		return $.get("https://gis-api.aiesec.org/v2/people/"+personId+"/applications.json?access_token="+Utils.getSecurityToken()+"&page="+pageNumber+"&per_page="+elementCount,  successFunction);
 	}
 	Utils.getApplicationInformation=function (ep_id,successFunction) {
-		var call = $.ajax({type: "GET", url: "https://noob.aiesec.de/people/"+ep_id+"/applicationInformation?access_token=ke6Reikore3fei6O", async: false}).responseText;
+		var call = $.ajax({type: "GET", url: "https://noob.aiesec.de/people/"+ep_id+"/applicationInformation?access_token="+db_token, async: false}).responseText;
 		json = JSON.parse(call);
 		return json;
 	}
