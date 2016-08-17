@@ -1,0 +1,4 @@
+javascript: (function(){
+		$(".change").remove()	
+}
+)();
