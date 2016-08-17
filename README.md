@@ -25,6 +25,8 @@ Step 11: Create a Bookmark in your browser with minified content from aiesecBook
 
 Step 12: ???
 
+Step 13: PROFIT!!!
+
 Point of Attention:
 Without an external database, you can only use the following bookmarklets on EXPA:
 * v2_EXPA_add_finance (will add a new link to the linklist)
@@ -33,5 +35,3 @@ Without an external database, you can only use the following bookmarklets on EXP
 * v2_EXPA_followUpTable (right now includes also stuff from external database but can easily be adapted)
 * v2_EXPA_removePercentage (removes percentage in Analytics)
 * v2_EXPA_showProgram (shows program interested in instead of program experience in in My EPs)
-
-Step 13: PROFIT!!!
